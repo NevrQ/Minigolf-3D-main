@@ -3,7 +3,7 @@ using UnityEngine;
 public class LineForce : MonoBehaviour
 {
     [SerializeField] private float shotPower;
-    [SerializeField] private float stopVelocity = .05f; //The velocity below which the rigidbody will be considered as stopped
+    [SerializeField] private float stopVelocity = .05f;
 
     [SerializeField] private LineRenderer lineRenderer;
 
